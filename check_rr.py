@@ -69,5 +69,5 @@ if __name__ == '__main__':
 
         causal_hist = RRChecker(raw_ops)
         rr_violation = causal_hist.check_repeatable_read(i)
-        if rr_violation is not None:
+        if rr_violation != []:
             print('find RR violation in trace: ' + str(i))
