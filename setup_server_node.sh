@@ -5,10 +5,10 @@
 # sh setup_server_node.sh 3
 
 # need to change parameters here
-cluster_name="galera-121"
-server1="155.98.39.143"
-server2="155.98.39.151"
-server3="155.98.39.130"
+cluster_name="galera-519"
+server1="155.98.36.62"
+server2="155.98.36.70"
+server3="155.98.36.33"
 
 name1="node-1"
 name2="node-2"
